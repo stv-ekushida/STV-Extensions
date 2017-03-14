@@ -14,15 +14,12 @@ Swift Version 3.0 or more
 
 ```rubu
 target 'TargetName' do
-use_frameworks!
-pod "STV-Extensions"
+    use_frameworks!
+    pod "STV-Extensions"
 
-# Pods for ios-demo
-
-target 'TargetNameTests' do
-inherit! :search_paths
-end
-
+    target 'TargetNameTests' do
+        inherit! :search_paths
+    end
 end
 ```
 
