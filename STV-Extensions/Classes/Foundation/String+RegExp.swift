@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension String {
+public extension String {
 
     /// 数字か？
     func isNumeric() -> Bool{

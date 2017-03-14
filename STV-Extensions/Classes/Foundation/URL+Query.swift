@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension URL {
+public extension URL {
     
     /// URLパラメタをDictonary型に変換する
     func getKeyVals() -> [String: String]? {

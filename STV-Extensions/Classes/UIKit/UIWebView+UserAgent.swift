@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIWebView {
+public extension UIWebView {
     
     /// ユーザーエージェントを取得する
     var userAgent: String {

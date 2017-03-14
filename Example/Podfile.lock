@@ -1,0 +1,16 @@
+PODS:
+  - STV-Extensions (0.1.0)
+
+DEPENDENCIES:
+  - STV-Extensions (from `../`)
+
+EXTERNAL SOURCES:
+  STV-Extensions:
+    :path: ../
+
+SPEC CHECKSUMS:
+  STV-Extensions: 7924479328413469d2d1e7c0142be2c43bbdf31a
+
+PODFILE CHECKSUM: 0b90dbb9f2d88aa9031a21dff64de17a88830188
+
+COCOAPODS: 1.1.1

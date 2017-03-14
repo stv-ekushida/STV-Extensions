@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Date {
+public extension Date {
     
     /// 月初めの日付を取得する
     func startOfMonth() -> Date? {

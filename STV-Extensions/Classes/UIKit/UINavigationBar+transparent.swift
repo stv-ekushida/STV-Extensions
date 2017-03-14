@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UINavigationBar {
+public extension UINavigationBar {
     
     /// ナビゲーションバーを透過させる & 下線を消す
     func transparent() {

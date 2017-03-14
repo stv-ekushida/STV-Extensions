@@ -1,0 +1,6 @@
+framework module Pods_STV_Extensions_Tests {
+  umbrella header "Pods-STV-Extensions_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module STV_Extensions {
+  umbrella header "STV-Extensions-umbrella.h"
+
+  export *
+  module * { export * }
+}
