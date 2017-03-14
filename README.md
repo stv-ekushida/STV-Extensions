@@ -1,4 +1,5 @@
 # STV-Extensions
+Extension collection of Swift 3.
 
 [![CI Status](http://img.shields.io/travis/stv-ekushida/STV-Extensions.svg?style=flat)](https://travis-ci.org/stv-ekushida/STV-Extensions)
 [![Version](https://img.shields.io/cocoapods/v/STV-Extensions.svg?style=flat)](http://cocoapods.org/pods/STV-Extensions)
