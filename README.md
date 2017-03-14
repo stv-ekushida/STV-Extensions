@@ -45,17 +45,17 @@ import STV_Extensions
 |Dictionary|toJson|Dictonary型をJSONに変換する|
 |Int|toDecimalStr|Intを3桁ごとにカンマが入ったStringへ変換する|
 |Bundle|appShortVersion|アプリバージョンを取得する(Short Ver.)|
-|Bundle|buildNo|アプリのビルド番号の取得|
+|Bundle|buildNo|アプリのビルド番号を取得する|
 |NSObject|className|クラス名を取得する|
 |String|toDate|String型をDate型に変換する|
 |String|toUrl|String型をURL型に変換する|
 |String|base64Decode|StringをUIImageに変換する(Base64)|
-|String|isNumericValid|数字か？|
+|String|isNumericValid|数字の形式か？|
 |String|isUrlValid|URLの形式か？|
 |String|isEmailValid|eMailの形式か？|
 |String|isTelephoneValid|電話番号の形式か？|
 |String|isdateValid|日付の形式か？|
-|String|isTimeValid|時間の形式か？   |
+|String|isTimeValid|時間の形式か？|
 |URL|keyVals|URLのパラメタをDictonary型に変換する|
 
 ### UIKit
@@ -71,7 +71,7 @@ import STV_Extensions
 |UINavigationController|width|NavigationBarの幅を取得する|
 |UIScreen|screenwidth|画面の幅を取得する|
 |UIScreen|screenHeight|画面の高さを取得する|
-|UIStoryboard|getViewController|Storyboardからインスタンスを取得する|
+|UIStoryboard|viewController|Storyboardからインスタンスを取得する|
 |UITabBar|transparent|UITabBarを透過させる & 下線を消す|
 |UITableView|removeTableFooterView|TableFooterViewを削除する|
 |UITableView|removeTableHeaderView|TableHeaderViewを削除する|
@@ -90,7 +90,6 @@ import STV_Extensions
 |UIViewController|addNotificationObserver|Notificationを登録する|
 |UIViewController|removeNotificationObserver|所定のNotificationを解除する|
 |UIViewController|removeNotificationsObserver|Notificationを解除する|
-
 
 ## Author
 
