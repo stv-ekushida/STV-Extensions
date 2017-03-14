@@ -11,37 +11,37 @@ import Foundation
 public extension String {
 
     /// 数字か？
-    func isNumeric() -> Bool{
+    func isNumericValid() -> Bool{
         return (self =~ "(^$)|(^\\d*$)")
     }
     
     /// 数字か? かつ　桁数のチェック
-    func isNumeric(length: Int) -> Bool {
+    func isNumericValid(length: Int) -> Bool {
         return (self =~ "(^$)|(^\\d{\(length)}$)")
     }
     
     /// URLの形式か？
-    func isUrl() -> Bool {
+    func isUrlValid() -> Bool {
         return (self =~ "^(https?|ftp)(:\\/\\/[-_.!~*\\'()a-zA-Z0-9;\\/?:\\@&=+\\$,%#]+)$")
     }
 
     /// eMailの形式か？
-    func isEmail() -> Bool {
+    func isEmailValid() -> Bool {
         return (self =~ "^[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}$")
     }
 
     /// 電話番号の形式か？
-    func isTelephone() -> Bool {
+    func isTelephoneValid() -> Bool {
         return (self =~ "^\\d{2,4}-\\d{1,4}-\\d{4}$")
     }
  
     /// 日付の形式か？
-    func isdate(format: String) -> Bool {
+    func isdateValid(format: String) -> Bool {
         return (self =~ "^\\d{4}\(format)\\d{1,2}\(format)\\d{1,2}$")
     }
  
     /// 時間の形式か？    
-    func isTime() -> Bool {
+    func isTimeValid() -> Bool {
         return (self =~ "^\\d{1,2}:\\d{1,2}:\\d{1,2}$")
     }
 }

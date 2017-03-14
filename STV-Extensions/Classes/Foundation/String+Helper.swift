@@ -23,7 +23,7 @@ public extension String {
     }
     
     /// String型をURL型に変更する
-    var url: URL? {
+    var toUrl: URL? {
         return URL(string: self)
     }
     

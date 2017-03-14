@@ -10,7 +10,7 @@ import Foundation
 
 public extension Data {
     
-    func deviceToken() -> String {
+    func toDeviceToken() -> String {
         
         var token = String(format: "%@", self as CVarArg) as String
         let characterSet: CharacterSet = CharacterSet.init(charactersIn: "<>")

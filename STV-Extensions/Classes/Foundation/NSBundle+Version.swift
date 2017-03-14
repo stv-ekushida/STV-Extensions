@@ -15,8 +15,8 @@ public extension Bundle {
         return Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String
     }
 
-    /// アプリバージョンの取得(Full Ver.)
-    class func appVersion() -> String {
+    /// アプリのビルド番号の取得(Full Ver.)
+    class func buildNo() -> String {
         return Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as! String
     }
 }

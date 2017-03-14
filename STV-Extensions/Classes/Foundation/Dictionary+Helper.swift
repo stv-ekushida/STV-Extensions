@@ -11,7 +11,7 @@ import Foundation
 public extension Dictionary {
         
     /// Dictonary型をJSONに変換する
-    var json: String {
+    var toJson: String {
         
         var json: String = ""
         do {
