@@ -6,14 +6,13 @@
 [![Platform](https://img.shields.io/cocoapods/p/STV-Extensions.svg?style=flat)](http://cocoapods.org/pods/STV-Extensions)
 
 ## Requirements
-Swift Version 3.0
+Swift Version 3.0 or more
 
 ## Installation
 
 ### Podfile
 
 ```rubu
-
 target 'TargetName' do
 use_frameworks!
 pod "STV-Extensions"
