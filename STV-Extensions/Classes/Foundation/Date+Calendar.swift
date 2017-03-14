@@ -46,4 +46,34 @@ public extension Date {
         comp.hour = 9
         return NSCalendar.current.date(byAdding: comp,to: self)!
     }
-}
+    
+    /// 日付から曜日を取得する(Short Ver.)
+    func shortWeekdayStr() -> String {
+        return weekDaySymbol(date: self, style: .short)
+    }
+    
+    /// 日付から曜日を取得する
+    func weekdayStr() -> String {
+        return weekDaySymbol(date: self, style: .normal)
+    }
+    
+    private enum WeekDayStyle {
+        case normal
+        case short
+    }
+    
+    private func weekDaySymbol(date: Date, style: WeekDayStyle) -> String {
+        let calendar = Calendar.init(identifier: .gregorian)
+        let weekday = calendar.component(.weekday, from: date)
+        
+        let weekdaySymbolIndex = weekday - 1
+        let formatter = DateFormatter()
+        formatter.locale = Locale(identifier: "ja")
+        
+        switch style {
+        case .normal:
+            return formatter.weekdaySymbols[weekdaySymbolIndex]
+        case .short:
+            return formatter.shortWeekdaySymbols[weekdaySymbolIndex]
+        }
+    }}
