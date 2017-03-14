@@ -23,11 +23,11 @@ public extension String {
     }
     
     /// String型をURL型に変更する
-    var url: URL? {
+    var toUrl: URL? {
         return URL(string: self)
     }
     
-    /// StringをUIImageに戻る(Base64)
+    /// StringをUIImageに戻す(Base64)
     func base64Decode(imageString:String) -> UIImage?{
         
         let base64String = imageString.replacingOccurrences(of: " ", with:"+")

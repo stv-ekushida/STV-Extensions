@@ -11,7 +11,7 @@ import Foundation
 public extension Int {
     
     /// Intを三桁ごとにカンマが入ったStringへ変換する
-    var decimalStr: String {
+    var toDecimalStr: String {
         let decimalFormatter = NumberFormatter()
         decimalFormatter.numberStyle = NumberFormatter.Style.decimal
         decimalFormatter.groupingSeparator = ","

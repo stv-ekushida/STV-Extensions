@@ -11,7 +11,7 @@ import UIKit
 public extension UIStoryboard {
     
     /// Storyboardからインスタンスを取得する
-    class func getViewController<T: UIViewController>(storyboardName: String,
+    class func viewController<T: UIViewController>(storyboardName: String,
                                   identifier: String) -> T? {
         
         return UIStoryboard(name: storyboardName, bundle: nil).instantiateViewController(

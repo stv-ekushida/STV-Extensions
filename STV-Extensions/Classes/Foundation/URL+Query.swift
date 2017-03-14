@@ -11,7 +11,7 @@ import Foundation
 public extension URL {
     
     /// URLパラメタをDictonary型に変換する
-    func getKeyVals() -> [String: String]? {
+    func keyVals() -> [String: String]? {
         var results = [String:String]()
         let keyValues = self.query?.components(separatedBy:"&")
         let count = keyValues?.count ?? 0
