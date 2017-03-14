@@ -17,10 +17,6 @@ Swift Version 3.0 or more
 target 'TargetName' do
     use_frameworks!
     pod "STV-Extensions"
-
-    target 'TargetNameTests' do
-        inherit! :search_paths
-    end
 end
 ```
 
