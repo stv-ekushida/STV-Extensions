@@ -1,8 +1,8 @@
 {
   "name": "STV-Extensions",
-  "version": "0.1.0",
-  "summary": "A short description of STV-Extensions.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.3",
+  "summary": "Extension of collection of Swift3.",
+  "description": "It is a collection of Extensions that our company uses.",
   "homepage": "https://github.com/stv-ekushida/STV-Extensions",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/stv-ekushida/STV-Extensions.git",
-    "tag": "0.1.0"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "8.0"
