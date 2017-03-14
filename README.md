@@ -42,6 +42,8 @@ import STV_Extensions
 |Date|preMonth|先月の日付を取得する|
 |Date|nextMonth|翌月の日付を取得する|
 |Date|toStr|Date型をString型に変換する|
+|Date|shortWeekdayStr|日付から曜日を取得する(Short Ver.)|
+|Date|weekdayStr|日付から曜日を取得する|
 |Dictionary|toJson|Dictonary型をJSONに変換する|
 |Int|toDecimalStr|Intを3桁ごとにカンマが入ったStringへ変換する|
 |Bundle|appShortVersion|アプリバージョンを取得する(Short Ver.)|
