@@ -11,7 +11,7 @@ import UIKit
 infix operator =~
 infix operator !~
 
-func =~(lhs: String, rhs: String) -> Bool {
+public func =~(lhs: String, rhs: String) -> Bool {
     guard let regex = try? NSRegularExpression(pattern: rhs,
                                                options: NSRegularExpression.Options()) else {
                                                 return false
@@ -22,6 +22,6 @@ func =~(lhs: String, rhs: String) -> Bool {
                                  range: NSRange(location: 0, length: lhs.characters.count)) > 0
 }
 
-func !~(lhs: String, rhs: String) -> Bool {
+public func !~(lhs: String, rhs: String) -> Bool {
     return !(lhs=~rhs)
 }

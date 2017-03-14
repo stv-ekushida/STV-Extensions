@@ -1,0 +1,22 @@
+{
+  "name": "STV-Extensions",
+  "version": "0.1.0",
+  "summary": "A short description of STV-Extensions.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/stv-ekushida/STV-Extensions",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "stv-ekushida": "e.kushida@st-ventures.jp"
+  },
+  "source": {
+    "git": "https://github.com/stv-ekushida/STV-Extensions.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "STV-Extensions/Classes/**/*"
+}

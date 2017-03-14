@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIColor {
+public extension UIColor {
     
     /// 画像ファイルを背景色として利用する（繰り返し）
     static func patternImage(fileName: String) -> UIColor {
