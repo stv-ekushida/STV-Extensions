@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Bundle {
+public extension Bundle {
     
     /// アプリバージョンの取得(Short Ver.)
     class func appShortVersion() -> String {

@@ -33,11 +33,19 @@ end
 import STV_Extensions
 ```
 
+<<<<<<< HEAD
 ## Table of Contents
 
 ### Foundation
 
 | Class Name |property/Method Name|Description|
+=======
+## Usage
+
+### Foundation
+
+| クラス名 |プロパティ/メソッド名|説明|
+>>>>>>> a1d9626ad35ea16fbe33ab36d3240ca650efc791
 |---|---|---|
 |Data|deviceToken|Data型からDeviceTokenの形式に変換する|
 |Date|startOfMonth|月初めの日付を取得する|
@@ -57,7 +65,11 @@ import STV_Extensions
 
 ### UIKit
 
+<<<<<<< HEAD
 | Class Name |property/Method Name|Description|
+=======
+| クラス名 |プロパティ/メソッド名|説明|
+>>>>>>> a1d9626ad35ea16fbe33ab36d3240ca650efc791
 |---|---|---|
 |UIColor|init(hex,alpha)|16進数でUIColorを作成する|
 |UIImage|base64Encode|UIImageをUIImage変換する(Base64)|
