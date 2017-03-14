@@ -36,21 +36,27 @@ import STV_Extensions
 
 | Class Name |property/Method Name|Description|
 |---|---|---|
-|Data|deviceToken|Data型からDeviceTokenの形式に変換する|
+|Data|toDeviceToken|Data型からDeviceTokenの形式に変換する|
 |Date|startOfMonth|月初めの日付を取得する|
 |Date|endOfMonth|月終わりの日付を取得する|
 |Date|preMonth|先月の日付を取得する|
 |Date|nextMonth|翌月の日付を取得する|
 |Date|toStr|Date型をString型に変換する|
-|Dictionary|json|Dictonary型をJSONに変換する|
-|Int|decimalStr|Intを3桁ごとにカンマが入ったStringへ変換する|
+|Dictionary|toJson|Dictonary型をJSONに変換する|
+|Int|toDecimalStr|Intを3桁ごとにカンマが入ったStringへ変換する|
 |Bundle|appShortVersion|アプリバージョンを取得する(Short Ver.)|
-|Bundle|appVersion|アプリバージョンを取得する(Full Ver.)|
+|Bundle|buildNo|アプリのビルド番号の取得|
 |NSObject|className|クラス名を取得する|
 |String|toDate|String型をDate型に変換する|
-|String|url|String型をURL型に変換する|
+|String|toUrl|String型をURL型に変換する|
 |String|base64Decode|StringをUIImageに変換する(Base64)|
-|URL|getKeyValues|URLのパラメタをDictonary型に変換する|
+|String|isNumericValid|数字か？|
+|String|isUrlValid|URLの形式か？|
+|String|isEmailValid|eMailの形式か？|
+|String|isTelephoneValid|電話番号の形式か？|
+|String|isdateValid|日付の形式か？|
+|String|isTimeValid|時間の形式か？   |
+|URL|keyVals|URLのパラメタをDictonary型に変換する|
 
 ### UIKit
 
