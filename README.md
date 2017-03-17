@@ -44,6 +44,8 @@ import STV_Extensions
 |Int|decimalStr|Intを3桁ごとにカンマが入ったStringへ変換する|
 |Bundle|appShortVersion|アプリバージョンを取得する(Short Ver.)|
 |Bundle|buildNo|アプリのビルド番号を取得する|
+|Bundle|buildNo|アプリのビルド番号を取得する|
+|Bundle|loadJson|ローカルのJSONファイルを取得する|
 |NSObject|className|クラス名を取得する|
 |String|toDate|String型をDate型に変換する|
 |String|toUrl|String型をURL型に変換する|
@@ -60,6 +62,7 @@ import STV_Extensions
 
 | Class Name |property/Method Name|Description|
 |---|---|---|
+|UICollectionView|isScrollEnd|最下セルまでスクロールしたか？|
 |UIColor|init(hex,alpha)|16進数でUIColorを作成する|
 |UIImage|base64Encode|UIImageをUIImage変換する(Base64)|
 |UIImage|changeColor|画像の色を変更する|
@@ -75,6 +78,7 @@ import STV_Extensions
 |UITableView|removeTableHeaderView|TableHeaderViewを削除する|
 |UITableView|scrollToBottom|TableViewの下へスクロールする|
 |UITableView|scrollToTop|TableViewの上へスクロールする|
+|UITableView|isScrollEnd|最下セルまでスクロールしたか？|
 |UITextField|isEmpty|TextFieldの値が空かチェックする|
 |UITextField|trimmedText|TextFieldの値をトリムする|
 |UITextField|clear|TextFieldの値ををクリアする|
