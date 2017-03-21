@@ -38,12 +38,11 @@ import STV_Extensions
 |Date|preMonth|先月の日付を取得する|
 |Date|nextMonth|翌月の日付を取得する|
 |Date|toStr|Date型をString型に変換する|
-|Date|shortWeekdayStr|日付から曜日を取得する(Short Ver.)|
-|Date|weekdayStr|日付から曜日を取得する|
+|Date|shortWeekdayStr|日付から曜日を取得する　(例)月|
+|Date|weekdayStr|日付から曜日を取得する　(例)月曜日|
 |Dictionary|toJson|Dictonary型をJSONに変換する|
 |Int|decimalStr|Intを3桁ごとにカンマが入ったStringへ変換する|
-|Bundle|appShortVersion|アプリバージョンを取得する(Short Ver.)|
-|Bundle|buildNo|アプリのビルド番号を取得する|
+|Bundle|appShortVersion|アプリバージョンを取得する|
 |Bundle|buildNo|アプリのビルド番号を取得する|
 |Bundle|loadJson|ローカルのJSONファイルを取得する|
 |NSObject|className|クラス名を取得する|
