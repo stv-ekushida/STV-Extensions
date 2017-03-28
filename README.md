@@ -40,6 +40,7 @@ import STV_Extensions
 |Date|toStr|Date型をString型に変換する|
 |Date|shortWeekdayStr|日付から曜日を取得する　(例)月|
 |Date|weekdayStr|日付から曜日を取得する　(例)月曜日|
+|Date|now|現在の日時(yyyy/MM/dd HH:mm:ss)を日本時間で取得する|
 |Dictionary|toJson|Dictonary型をJSONに変換する|
 |Int|decimalStr|Intを3桁ごとにカンマが入ったStringへ変換する|
 |Bundle|appShortVersion|アプリバージョンを取得する|
@@ -55,6 +56,7 @@ import STV_Extensions
 |String|isTelephoneValid|電話番号の形式か？|
 |String|isdateValid|日付の形式か？|
 |String|isTimeValid|時間の形式か？|
+|String|localized|LocalizedStringに設定された値を取得する|
 |URL|keyVals|URLのパラメタをDictonary型に変換する|
 
 ### UIKit
@@ -69,6 +71,7 @@ import STV_Extensions
 |UINavigationBar|transparent|NavigationBarを透過させる & 下線を消す|
 |UINavigationController|height|NavigationBarの高さを取得する|
 |UINavigationController|width|NavigationBarの幅を取得する|
+|UINavigationItem|hideBackButtonTitle|戻るボタンの文字列を消す|
 |UIScreen|screenwidth|画面の幅を取得する|
 |UIScreen|screenHeight|画面の高さを取得する|
 |UIStoryboard|viewController|Storyboardからインスタンスを取得する|
