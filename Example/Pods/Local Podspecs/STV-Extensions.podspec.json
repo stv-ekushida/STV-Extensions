@@ -1,6 +1,6 @@
 {
   "name": "STV-Extensions",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "summary": "Extension of collection of Swift3.",
   "description": "It is a collection of Extensions that our company uses.",
   "homepage": "https://github.com/stv-ekushida/STV-Extensions",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/stv-ekushida/STV-Extensions.git",
-    "tag": "0.1.7"
+    "tag": "0.1.8"
   },
   "platforms": {
     "ios": "8.0"

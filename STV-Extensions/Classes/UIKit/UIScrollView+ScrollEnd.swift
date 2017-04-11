@@ -6,4 +6,12 @@
 //
 //
 
-import Foundation
+import UIKit
+
+public extension UIScrollView {
+
+    /// 最下セルまでスクロールしたか？
+    func isScrollEnd() -> Bool {
+        return self.contentOffset.y >= self.contentSize.height - self.bounds.height
+    }
+}
