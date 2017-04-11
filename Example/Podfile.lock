@@ -1,5 +1,5 @@
 PODS:
-  - STV-Extensions (0.1.8)
+  - STV-Extensions (0.1.9)
 
 DEPENDENCIES:
   - STV-Extensions (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  STV-Extensions: 1cc3a193143eff97d48bf228ad29ecf7633103fe
+  STV-Extensions: 6830199b628230145d8e7d509c2055f50e4b5b86
 
 PODFILE CHECKSUM: 0b90dbb9f2d88aa9031a21dff64de17a88830188
 

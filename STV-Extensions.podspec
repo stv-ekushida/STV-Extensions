@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'STV-Extensions'
-  s.version          = '0.1.8'
+  s.version          = '0.1.9'
   s.summary          = 'Extension of collection of Swift3.'
 
 # This description is used to generate tags and improve search results.
