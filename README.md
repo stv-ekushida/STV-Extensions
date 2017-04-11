@@ -41,6 +41,7 @@ import STV_Extensions
 |Date|shortWeekdayStr|日付から曜日を取得する　(例)月|
 |Date|weekdayStr|日付から曜日を取得する　(例)月曜日|
 |Date|now|現在の日時(yyyy/MM/dd HH:mm:ss)を日本時間で取得する|
+|Date|dateStyle|対象の日付が今日 or 今年 or 翌年以降によって表示を切り替える|
 |Dictionary|toJson|Dictonary型をJSONに変換する|
 |Int|decimalStr|Intを3桁ごとにカンマが入ったStringへ変換する|
 |Bundle|appShortVersion|アプリバージョンを取得する|
@@ -63,7 +64,6 @@ import STV_Extensions
 
 | Class Name |property/Method Name|Description|
 |---|---|---|
-|UICollectionView|isScrollEnd|最下セルまでスクロールしたか？|
 |UIColor|init(hex,alpha)|16進数でUIColorを作成する|
 |UIImage|base64Encode|UIImageをUIImage変換する(Base64)|
 |UIImage|changeColor|画像の色を変更する|
@@ -74,13 +74,13 @@ import STV_Extensions
 |UINavigationItem|hideBackButtonTitle|戻るボタンの文字列を消す|
 |UIScreen|screenwidth|画面の幅を取得する|
 |UIScreen|screenHeight|画面の高さを取得する|
+|UIScrollView|isScrollEnd|最下セルまでスクロールしたか？|
 |UIStoryboard|viewController|Storyboardからインスタンスを取得する|
 |UITabBar|transparent|UITabBarを透過させる & 下線を消す|
 |UITableView|removeTableFooterView|TableFooterViewを削除する|
 |UITableView|removeTableHeaderView|TableHeaderViewを削除する|
 |UITableView|scrollToBottom|TableViewの下へスクロールする|
 |UITableView|scrollToTop|TableViewの上へスクロールする|
-|UITableView|isScrollEnd|最下セルまでスクロールしたか？|
 |UITextField|isEmpty|TextFieldの値が空かチェックする|
 |UITextField|trimmedText|TextFieldの値をトリムする|
 |UITextField|clear|TextFieldの値ををクリアする|
